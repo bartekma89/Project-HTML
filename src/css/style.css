@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
 html,
 body,
 div,
@@ -264,7 +266,6 @@ body {
     color: #777;
     font-family: "Droid Serif";
     font-size: 16px;
-    font-weight: 400;
     font-style: italic; }
 
 #services .service {
@@ -313,7 +314,6 @@ body {
       color: #777;
       font-family: "Droid Serif";
       font-size: 16px;
-      font-weight: 400;
       font-style: italic; }
   #our-portfolio .gallery {
     margin: 0 auto 121px auto; }
@@ -334,17 +334,47 @@ body {
         text-align: center;
         width: 290px; }
         #our-portfolio .gallery > .col-custom .image-box h3 {
-          color: #333333;
-          font-family: 'Montserrat';
+          color: #333;
+          font-family: "Montserrat", sans-serif;
           font-size: 18px;
           font-weight: 700;
-          padding-right: 1px;
+          padding-right: 2px;
           padding-top: 29px; }
         #our-portfolio .gallery > .col-custom .image-box p {
           color: #737373;
-          font-family: 'Droid Serif';
+          font-family: "Droid Serif";
           font-size: 14px;
           font-style: italic;
-          padding: 1px;
+          padding: 2px;
           padding-bottom: 27px;
           letter-spacing: 1px; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  color: #777;
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding: 0; }
+
+#about-us .title {
+  margin: 120px auto 80px auto;
+  text-align: center; }
+  #about-us .title h2 {
+    color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase; }
+  #about-us .title p {
+    color: #777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic; }
