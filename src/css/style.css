@@ -90,7 +90,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 62.5%;
+  font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
@@ -213,13 +213,13 @@ nav {
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
     .photo-inner .content h1 {
-      color: #ffffff;
+      color: #fff;
       font-size: 75px;
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 59px; }
     .photo-inner .content h2 {
-      color: #ffffff;
+      color: #fff;
       font-family: "Droid Serif";
       font-size: 40px;
       font-style: italic;
@@ -297,22 +297,54 @@ body {
 .container-fluid {
   padding: 0; }
 
-#our-portfolio .title {
-  margin: 120px auto 80px auto;
-  text-align: center; }
-  #our-portfolio .title h2 {
-    color: #222;
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 75px;
-    text-transform: uppercase; }
-  #our-portfolio .title p {
-    color: #777;
-    font-family: "Droid Serif";
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic; }
-
-#our-portfolio .gallery .image-1 {
-  background: url("../images/gallery/image-1.png"); }
+#our-portfolio {
+  background: #f7f7f7; }
+  #our-portfolio .title {
+    margin: 120px auto 80px auto;
+    text-align: center; }
+    #our-portfolio .title h2 {
+      color: #222;
+      font-family: "Montserrat", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 75px;
+      text-transform: uppercase; }
+    #our-portfolio .title p {
+      color: #777;
+      font-family: "Droid Serif";
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic; }
+  #our-portfolio .gallery {
+    margin: 0 auto 121px auto; }
+    #our-portfolio .gallery > .col-custom {
+      text-align: center;
+      margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0; }
+      #our-portfolio .gallery > .col-custom:nth-of-type(1) {
+        padding-bottom: 50px; }
+      #our-portfolio .gallery > .col-custom:nth-of-type(2) {
+        padding-bottom: 50px; }
+      #our-portfolio .gallery > .col-custom:nth-of-type(3) {
+        padding-bottom: 50px; }
+      #our-portfolio .gallery > .col-custom .image-box {
+        margin: 0 auto;
+        background-color: #fff;
+        text-align: center;
+        width: 290px; }
+        #our-portfolio .gallery > .col-custom .image-box h3 {
+          color: #333333;
+          font-family: 'Montserrat';
+          font-size: 18px;
+          font-weight: 700;
+          padding-right: 1px;
+          padding-top: 29px; }
+        #our-portfolio .gallery > .col-custom .image-box p {
+          color: #737373;
+          font-family: 'Droid Serif';
+          font-size: 14px;
+          font-style: italic;
+          padding: 1px;
+          padding-bottom: 27px;
+          letter-spacing: 1px; }
