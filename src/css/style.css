@@ -10,6 +10,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
 html,
 body,
 div,
@@ -555,3 +557,24 @@ body {
       font-size: 16px;
       font-weight: 400;
       text-align: center; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  color: #777;
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding: 0; }
+
+#clients .logos {
+  margin: 60px auto; }
+  #clients .logos .logo {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0; }
