@@ -496,18 +496,62 @@ body {
 .container-fluid {
   padding: 0; }
 
-#team .title {
-  margin: 120px auto 80px auto;
-  text-align: center; }
-  #team .title h2 {
-    font-family: "Montserrat", sans-serif;
-    color: #222;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 75px;
-    text-transform: uppercase; }
-  #team .title p {
-    font-family: "Droid Serif";
-    color: #777;
-    font-size: 16px;
-    font-style: italic; }
+#team {
+  background-color: #f9f9f9; }
+  #team .title {
+    margin: 120px auto 80px auto;
+    text-align: center; }
+    #team .title h2 {
+      font-family: "Montserrat", sans-serif;
+      color: #222;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 75px;
+      text-transform: uppercase; }
+    #team .title p {
+      font-family: "Droid Serif";
+      color: #777;
+      font-size: 16px;
+      font-style: italic; }
+  #team .team-member {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center; }
+    #team .team-member h3 {
+      margin: 0;
+      padding: 0;
+      color: #222;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 40px; }
+    #team .team-member p {
+      color: #777;
+      font-family: "Roboto Slab", serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 10px; }
+    #team .team-member .social-icons {
+      padding: 20px; }
+      #team .team-member .social-icons .icon-btn {
+        font-size: 20px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #000;
+        background-color: transparent;
+        color: #000;
+        cursor: pointer;
+        margin: 0 10px; }
+        #team .team-member .social-icons .icon-btn:hover {
+          background-color: #000;
+          color: #fff; }
+  #team .description {
+    padding: 50px;
+    margin-bottom: 70px; }
+    #team .description h3 {
+      color: #777;
+      font-family: "Roboto Slab", serif;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center; }
