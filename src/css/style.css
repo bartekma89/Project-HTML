@@ -12,6 +12,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin-ext");
 html,
 body,
 div,
@@ -203,14 +207,28 @@ nav {
             text-decoration: none;
             background: #fed136; }
 
-.photo-inner {
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  color: #777;
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding: 0; }
+
+#home .photo-inner {
   background: url("../images/parallax-photo/background-image.png") no-repeat fixed center;
   background-size: cover;
   height: 100vh;
   width: 100vw;
   padding-top: 100px;
   z-index: -1; }
-  .photo-inner .content {
+  #home .photo-inner .content {
     text-align: center;
     position: absolute;
     left: 50%;
@@ -218,25 +236,25 @@ nav {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
-    .photo-inner .content h1 {
+    #home .photo-inner .content h1 {
       color: #fff;
       font-size: 75px;
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 59px; }
-    .photo-inner .content h2 {
+    #home .photo-inner .content h2 {
       color: #fff;
       font-family: "Droid Serif";
       font-size: 40px;
       font-style: italic;
       margin-bottom: 52px; }
-    .photo-inner .content button {
+    #home .photo-inner .content button {
       width: 265px;
       height: 65px;
       background-color: #fed136;
       border: none;
       border-radius: 5px; }
-      .photo-inner .content button span {
+      #home .photo-inner .content button span {
         font-size: 18px;
         font-weight: 700;
         text-transform: uppercase;
@@ -257,7 +275,7 @@ body {
   padding: 0; }
 
 #services .title {
-  margin: 120px auto 80px auto;
+  margin: 100px auto 80px auto;
   text-align: center; }
   #services .title h2 {
     font-family: "Montserrat", sans-serif;
@@ -305,7 +323,7 @@ body {
 #our-portfolio {
   background: #f7f7f7; }
   #our-portfolio .title {
-    margin: 120px auto 80px auto;
+    margin: 100px auto 80px auto;
     text-align: center; }
     #our-portfolio .title h2 {
       font-family: "Montserrat", sans-serif;
@@ -379,7 +397,7 @@ body {
   background-color: #f1f1f1; }
 
 #about-us .title {
-  margin: 120px auto 80px auto;
+  margin: 100px auto 80px auto;
   text-align: center; }
   #about-us .title h2 {
     font-family: "Montserrat", sans-serif;
@@ -501,7 +519,7 @@ body {
 #team {
   background-color: #f9f9f9; }
   #team .title {
-    margin: 120px auto 80px auto;
+    margin: 100px auto 80px auto;
     text-align: center; }
     #team .title h2 {
       font-family: "Montserrat", sans-serif;
@@ -578,3 +596,68 @@ body {
     text-align: center;
     padding-left: 0;
     padding-right: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  color: #777;
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding: 0; }
+
+#form-contact {
+  background-color: #222222;
+  border: 1px solid #222222; }
+  #form-contact .title {
+    margin: 100px auto 80px auto;
+    text-align: center; }
+    #form-contact .title h2 {
+      font-family: "Montserrat", sans-serif;
+      color: #222;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 75px;
+      text-transform: uppercase; }
+    #form-contact .title p {
+      font-family: "Droid Serif";
+      color: #777;
+      font-size: 16px;
+      font-style: italic; }
+    #form-contact .title h2 {
+      color: #fff; }
+  #form-contact form {
+    text-align: center;
+    margin-bottom: 120px; }
+    #form-contact form input,
+    #form-contact form textarea {
+      display: block;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      border: none;
+      color: #bbb;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    #form-contact form .buttonHolder {
+      text-align: center; }
+      #form-contact form .buttonHolder button {
+        margin-top: 10px;
+        width: 265px;
+        height: 65px;
+        background-color: #fed136;
+        border: none;
+        border-radius: 5px; }
+        #form-contact form .buttonHolder button span {
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #fff; }
