@@ -678,26 +678,31 @@ body {
 .container-fluid {
   padding: 0; }
 
-footer .social-media {
-  padding: 20px; }
-  footer .social-media .icon-btn {
-    font-size: 20px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: #000;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    margin: 0 10px; }
-    footer .social-media .icon-btn:hover {
-      background-color: #fff;
-      color: #000;
-      border: 3px solid #000; }
-  footer .social-media .copyright {
-    color: #555555;
+footer {
+  position: relative; }
+  footer .social-media {
+    padding: 20px; }
+    footer .social-media .icon-btn {
+      font-size: 20px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      background-color: #000;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      margin: 0 10px; }
+      footer .social-media .icon-btn:hover {
+        background-color: #fff;
+        color: #000;
+        border: 3px solid #000; }
+  footer .copyright {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    color: #555;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    margin: auto 230px; }
+    font-weight: 400; }
