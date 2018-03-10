@@ -204,19 +204,21 @@ nav {
       float: right;
       width: 80%; }
       nav .nav-bar .nav-menu .nav-menu-content li {
-        position: relative;
         float: right; }
         nav .nav-bar .nav-menu .nav-menu-content li a {
           display: block;
           font-size: 14px;
           font-weight: 400;
           text-transform: uppercase;
-          padding: 0 15px;
+          padding: 0 10px;
           line-height: 3;
           color: #fff; }
           nav .nav-bar .nav-menu .nav-menu-content li a:hover {
             text-decoration: none;
             background: #fed136; }
+          @media (min-width: 992px) {
+            nav .nav-bar .nav-menu .nav-menu-content li a {
+              padding: 0 20px; } }
 
 /* $pc-large: (min-width: 1200px);
 $pc-medium: (min-width: 992px);
