@@ -4,7 +4,7 @@
 			e.preventDefault();
 			this.classList.toggle('active');
 
-			$('nav ul').toggle();
+			$('.nav-menu-content').slideToggle();
 		});
 	});
 })(jQuery);
