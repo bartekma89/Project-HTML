@@ -189,12 +189,12 @@ nav {
     margin: 0 auto; }
     nav .nav-bar .nav-logo {
       float: left;
-      width: 30%;
-      position: absolute;
+      width: 20%;
+      position: relative;
       top: 50%;
-      -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-              transform: translateY(-50%); }
+      -webkit-transition: translateY(-50%);
+      -o-transition: translateY(-50%);
+      transition: translateY(-50%); }
     nav .nav-bar .nav-menu {
       position: relative;
       top: 50%;
@@ -202,7 +202,7 @@ nav {
       -o-transition: translateY(-50%);
       transition: translateY(-50%);
       float: right;
-      width: 70%; }
+      width: 80%; }
       nav .nav-bar .nav-menu .nav-menu-content li {
         position: relative;
         float: right; }
@@ -211,22 +211,12 @@ nav {
           font-size: 14px;
           font-weight: 400;
           text-transform: uppercase;
-          padding: 0 20px;
+          padding: 0 15px;
           line-height: 3;
           color: #fff; }
           nav .nav-bar .nav-menu .nav-menu-content li a:hover {
             text-decoration: none;
             background: #fed136; }
-    nav .nav-bar .nav-mobile {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: transparent;
-      height: 70px;
-      width: 70px; }
-    @media (max-width: 767px) {
-      nav .nav-bar .nav-menu-content li {
-        display: none; } }
 
 /* $pc-large: (min-width: 1200px);
 $pc-medium: (min-width: 992px);
