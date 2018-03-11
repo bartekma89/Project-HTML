@@ -1,1 +1,1 @@
-Technology: html, sass, gulp, js
+stack: html, sass, gulp, jQuery

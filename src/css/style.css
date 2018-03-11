@@ -159,6 +159,35 @@ body {
 .container-fluid {
   padding: 0; }
 
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
+
 /* $pc-large: (min-width: 1200px);
 $pc-medium: (min-width: 992px);
 $tablet: (min-width: 768px);
@@ -176,6 +205,35 @@ body {
 
 .container-fluid {
   padding: 0; }
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
 
 nav {
   z-index: 999;
@@ -307,6 +365,35 @@ body {
 .container-fluid {
   padding: 0; }
 
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
+
 #home .photo-inner {
   background: url("../images/parallax-photo/background-image.png") no-repeat fixed center;
   background-size: cover;
@@ -369,6 +456,35 @@ body {
 .container-fluid {
   padding: 0; }
 
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
+
 #services .title {
   margin: 100px auto 80px auto;
   text-align: center; }
@@ -418,6 +534,35 @@ body {
 
 .container-fluid {
   padding: 0; }
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
 
 #our-portfolio {
   background: #f7f7f7; }
@@ -493,6 +638,35 @@ body {
 
 .container-fluid {
   padding: 0; }
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
 
 #about-us .timeline .container-timeline:nth-of-type(1)::after, #about-us .timeline .container-timeline:nth-of-type(3)::after, #about-us .timeline .container-timeline:nth-of-type(2)::after, #about-us .timeline .container-timeline:nth-of-type(4)::after, #about-us .timeline .container-timeline:last-of-type::after {
   content: '';
@@ -697,6 +871,35 @@ body {
 .container-fluid {
   padding: 0; }
 
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
+
 #team {
   background-color: #f9f9f9; }
   #team .title {
@@ -775,6 +978,35 @@ body {
 .container-fluid {
   padding: 0; }
 
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
+
 #clients .logos {
   margin: 30px auto; }
   #clients .logos .logo {
@@ -800,6 +1032,35 @@ body {
 
 .container-fluid {
   padding: 0; }
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
 
 #form-contact {
   background-color: #222222;
@@ -878,6 +1139,35 @@ body {
 
 .container-fluid {
   padding: 0; }
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  z-index: 1000; }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333; }
+  #button:active {
+    background-color: #555; }
+  #button i {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -55%);
+        -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%); }
 
 footer {
   position: relative; }
