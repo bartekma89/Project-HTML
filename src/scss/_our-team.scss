@@ -1,0 +1,48 @@
+@import '_common.scss';
+
+#team {
+	background-color: #f9f9f9;
+
+	.title {
+		@include title-section;
+	}
+
+	.team-member {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+		h3 {
+			margin: 0;
+			padding: 0;
+			color: $text-color-dark;
+			font-family: $basic-font;
+			font-size: $basic-font-size;
+			font-weight: $bold-font-weight;
+			line-height: 40px;
+		}
+
+		p {
+			color: $basic-color;
+			font-family: $description-font;
+			font-size: 14px;
+			font-weight: $medium-font-weight;
+			line-height: 10px;
+		}
+
+		.social-icons {
+			@include btn-social-media;
+		}
+	}
+
+	.description {
+		padding: 50px;
+		margin-bottom: 70px;
+		h3 {
+			color: $basic-color;
+			font-family: $description-font;
+			font-size: $basic-font-size;
+			font-weight: $medium-font-weight;
+			text-align: center;
+		}
+	}
+}

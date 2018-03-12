@@ -1,0 +1,52 @@
+@import '_common.scss';
+
+@mixin media-phone {
+	@media (max-width: #{$phone}) {
+		h1 {
+			font-size: 60px;
+		}
+		h2 {
+			font-size: 35px;
+		}
+	}
+}
+
+#home {
+	.photo-inner {
+		background: url('../images/parallax-photo/background-image.png')
+			no-repeat fixed center;
+		background-size: cover;
+		height: 100vh;
+		width: 100vw;
+		padding-top: 100px;
+		z-index: -1;
+
+		.content {
+			text-align: center;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			h1 {
+				color: $text-color-light;
+				font-size: 75px;
+				font-weight: $bold-font-weight;
+				text-transform: uppercase;
+				margin-bottom: 59px;
+			}
+			h2 {
+				color: $text-color-light;
+				font-family: $paragraph-font;
+				font-size: 40px;
+				font-style: italic;
+				margin-bottom: 52px;
+			}
+
+			@include media-phone;
+
+			button {
+				@include btn-template;
+			}
+		}
+	}
+}
