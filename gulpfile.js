@@ -6,11 +6,11 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('browser-sync', ['sass'], function() {
 	browserSync.init({
 		server: {
-			baseDir: 'src',
+			baseDir: './',
 		},
 	});
 
-	gulp.watch(['src/*.html', 'src/js/*.js']).on('change', browserSync.reload);
+	gulp.watch(['index.html', 'src/js/*.js']).on('change', browserSync.reload);
 	gulp.watch('src/scss/**/*.scss', ['sass']);
 });
 

@@ -156,16 +156,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -178,19 +174,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 /* $pc-large: (min-width: 1200px);
 $pc-medium: (min-width: 992px);
@@ -207,16 +207,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -229,19 +225,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 nav {
   z-index: 999;
@@ -370,16 +370,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -392,19 +388,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #home .photo-inner {
   background: url("../images/parallax-photo/background-image.png") no-repeat fixed center;
@@ -465,16 +465,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -487,19 +483,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #services .title {
   margin: 100px auto 80px auto;
@@ -548,16 +548,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -570,19 +566,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #our-portfolio {
   background: #f7f7f7; }
@@ -656,16 +656,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -678,19 +674,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #about-us .timeline .container-timeline:nth-of-type(1)::after, #about-us .timeline .container-timeline:nth-of-type(3)::after, #about-us .timeline .container-timeline:nth-of-type(2)::after, #about-us .timeline .container-timeline:nth-of-type(4)::after, #about-us .timeline .container-timeline:last-of-type::after {
   content: '';
@@ -892,16 +892,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -914,19 +910,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #team {
   background-color: #f9f9f9; }
@@ -1003,16 +1003,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -1025,19 +1021,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #clients .logos {
   margin: 30px auto; }
@@ -1062,16 +1062,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -1084,19 +1080,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 #form-contact {
   background-color: #222222;
@@ -1173,16 +1173,12 @@ body {
   color: #777;
   overflow-x: hidden; }
 
-a:hover, a:active, a:focus, a:visited {
-  text-decoration: none;
-  outline: none; }
-
 .container-fluid {
   padding: 0; }
 
 #button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: #fed136;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -1195,19 +1191,23 @@ a:hover, a:active, a:focus, a:visited {
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
   z-index: 1000; }
+  #button i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px; }
+  #button .up {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
   #button:hover {
     cursor: pointer;
     background-color: #333; }
   #button:active {
     background-color: #555; }
-  #button i {
-    font-size: 60px;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(-50%, -55%);
-        -ms-transform: translate(-50%, -55%);
-            transform: translate(-50%, -55%); }
 
 footer {
   position: relative; }
