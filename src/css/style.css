@@ -156,6 +156,10 @@ body {
   color: #777;
   overflow-x: hidden; }
 
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
 .container-fluid {
   padding: 0; }
 
@@ -202,6 +206,10 @@ body {
   background: #fff;
   color: #777;
   overflow-x: hidden; }
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
 
 .container-fluid {
   padding: 0; }
@@ -362,6 +370,10 @@ body {
   color: #777;
   overflow-x: hidden; }
 
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
 .container-fluid {
   padding: 0; }
 
@@ -453,6 +465,10 @@ body {
   color: #777;
   overflow-x: hidden; }
 
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
 .container-fluid {
   padding: 0; }
 
@@ -531,6 +547,10 @@ body {
   background: #fff;
   color: #777;
   overflow-x: hidden; }
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
 
 .container-fluid {
   padding: 0; }
@@ -635,6 +655,10 @@ body {
   background: #fff;
   color: #777;
   overflow-x: hidden; }
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
 
 .container-fluid {
   padding: 0; }
@@ -868,6 +892,10 @@ body {
   color: #777;
   overflow-x: hidden; }
 
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
 .container-fluid {
   padding: 0; }
 
@@ -975,6 +1003,10 @@ body {
   color: #777;
   overflow-x: hidden; }
 
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
 .container-fluid {
   padding: 0; }
 
@@ -1029,6 +1061,10 @@ body {
   background: #fff;
   color: #777;
   overflow-x: hidden; }
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
 
 .container-fluid {
   padding: 0; }
@@ -1136,6 +1172,10 @@ body {
   background: #fff;
   color: #777;
   overflow-x: hidden; }
+
+a:hover, a:active, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
 
 .container-fluid {
   padding: 0; }
