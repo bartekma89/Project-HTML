@@ -47,6 +47,156 @@
 	}
 }
 
+#header {
+	background-image: url('../images/header/background-image.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	color: $text-color-light;
+	.opacity {
+		background-color: rgba(0, 0, 0, 0.5);
+		min-height: 100vh;
+	}
+	nav {
+		background: transparent;
+		margin: 0 auto;
+		.logo {
+			display: inline-block;
+			padding: 10px;
+		}
+		.nav-bar {
+			.nav-content {
+				display: none;
+				li {
+					display: block;
+					float: none;
+					a {
+						width: 100%;
+						font-size: 14px;
+						font-weight: $medium-font-weight;
+						text-transform: uppercase;
+						padding: 5px 10px;
+						line-height: 3;
+						color: $text-color-light;
+						&:hover {
+							text-decoration: none;
+							background: $hover-bg-color;
+						}
+					}
+				}
+			}
+		}
+		.nav-mobile {
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 10px;
+			height: 50px;
+			width: 50px;
+			#nav-toggle {
+				@include hamburger;
+			}
+		}
+
+		&.active-bg {
+			background-color: #333;
+			transition: background-color 300ms ease-in-out;
+		}
+	}
+	@media (min-width: $tablet) {
+		nav {
+			.nav-mobile {
+				display: none;
+			}
+
+			.logo {
+				float: left;
+				display: inline-block;
+				width: 30%;
+				text-align: center;
+				padding: 1%;
+			}
+
+			.nav-bar {
+				padding: 1%;
+				float: right;
+				width: 70%;
+				.nav-content {
+					display: block;
+					text-align: center;
+					li {
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 
+.nav-mobile {
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 17px;
+			background: $navbar-background-color;
+			height: 50px;
+			width: 50px;
+
+			#nav-toggle {
+				@include hamburger;
+			}
+		}
+ */
+
+/* @mixin center-vertical {
+	position: relative;
+	top: 50%;
+	transition: translateY(-50%);
+}
+
+@mixin hamburger {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
+	span,
+	span:before,
+	span:after {
+		cursor: pointer;
+		border-radius: 1px;
+		height: 5px;
+		width: 35px;
+		background: $background-color;
+		position: absolute;
+		display: block;
+		content: '';
+		transition: all 300ms ease-in-out;
+	}
+	span:before {
+		top: -10px;
+	}
+	span:after {
+		bottom: -10px;
+	}
+	&.active span {
+		background-color: transparent;
+		&:before,
+		&:after {
+			top: 0;
+		}
+		&:before {
+			transform: rotate(45deg);
+		}
+		&:after {
+			transform: rotate(-45deg);
+		}
+	}
+}
+
 nav {
 	z-index: 999;
 	width: 100vw;
@@ -136,4 +286,4 @@ nav {
 			}
 		}
 	}
-}
+} */

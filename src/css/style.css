@@ -243,60 +243,46 @@ body {
   #button:active {
     background-color: #555; }
 
-nav {
-  z-index: 999;
-  width: 100vw;
-  background: transparent;
-  position: absolute;
-  top: 30px; }
-  nav .nav-bar {
-    width: 80%;
-    max-width: 1000px;
+#header {
+  background-image: url("../images/header/background-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff; }
+  #header .opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh; }
+  #header nav {
+    background: transparent;
     margin: 0 auto; }
-    nav .nav-bar .nav-logo {
-      float: left;
-      width: 20%;
-      position: relative;
-      top: 50%;
-      -webkit-transition: translateY(-50%);
-      -o-transition: translateY(-50%);
-      transition: translateY(-50%); }
-    nav .nav-bar .nav-menu {
-      position: relative;
-      top: 50%;
-      -webkit-transition: translateY(-50%);
-      -o-transition: translateY(-50%);
-      transition: translateY(-50%);
-      float: right;
-      width: 80%; }
-      nav .nav-bar .nav-menu .nav-menu-content li {
-        float: right; }
-        nav .nav-bar .nav-menu .nav-menu-content li a {
-          display: block;
+    #header nav .logo {
+      display: inline-block;
+      padding: 10px; }
+    #header nav .nav-bar .nav-content {
+      display: none; }
+      #header nav .nav-bar .nav-content li {
+        display: block;
+        float: none; }
+        #header nav .nav-bar .nav-content li a {
+          width: 100%;
           font-size: 14px;
           font-weight: 400;
           text-transform: uppercase;
-          padding: 0 10px;
+          padding: 5px 10px;
           line-height: 3;
           color: #fff; }
-          nav .nav-bar .nav-menu .nav-menu-content li a:hover {
+          #header nav .nav-bar .nav-content li a:hover {
             text-decoration: none;
             background: #fed136; }
-          @media (min-width: pc-medium) {
-            nav .nav-bar .nav-menu .nav-menu-content li a {
-              padding: 0 20px; } }
-      @media (min-width: 768px) {
-        nav .nav-bar .nav-menu .nav-menu-content {
-          display: block !important; } }
-    nav .nav-bar .nav-mobile {
-      display: none;
+    #header nav .nav-mobile {
+      display: block;
       position: absolute;
       top: 0;
-      right: 17px;
-      background: #333;
+      right: 10px;
       height: 50px;
       width: 50px; }
-      nav .nav-bar .nav-mobile #nav-toggle {
+      #header nav .nav-mobile #nav-toggle {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -305,9 +291,9 @@ nav {
                 transform: translate(-50%, -50%);
         cursor: pointer;
         padding: 10px 35px 16px 0px; }
-        nav .nav-bar .nav-mobile #nav-toggle span,
-        nav .nav-bar .nav-mobile #nav-toggle span:before,
-        nav .nav-bar .nav-mobile #nav-toggle span:after {
+        #header nav .nav-mobile #nav-toggle span,
+        #header nav .nav-mobile #nav-toggle span:before,
+        #header nav .nav-mobile #nav-toggle span:after {
           cursor: pointer;
           border-radius: 1px;
           height: 5px;
@@ -319,42 +305,198 @@ nav {
           -webkit-transition: all 300ms ease-in-out;
           -o-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out; }
-        nav .nav-bar .nav-mobile #nav-toggle span:before {
+        #header nav .nav-mobile #nav-toggle span:before {
           top: -10px; }
-        nav .nav-bar .nav-mobile #nav-toggle span:after {
+        #header nav .nav-mobile #nav-toggle span:after {
           bottom: -10px; }
-        nav .nav-bar .nav-mobile #nav-toggle.active span {
+        #header nav .nav-mobile #nav-toggle.active span {
           background-color: transparent; }
-          nav .nav-bar .nav-mobile #nav-toggle.active span:before, nav .nav-bar .nav-mobile #nav-toggle.active span:after {
+          #header nav .nav-mobile #nav-toggle.active span:before, #header nav .nav-mobile #nav-toggle.active span:after {
             top: 0; }
-          nav .nav-bar .nav-mobile #nav-toggle.active span:before {
+          #header nav .nav-mobile #nav-toggle.active span:before {
             -webkit-transform: rotate(45deg);
                 -ms-transform: rotate(45deg);
                     transform: rotate(45deg); }
-          nav .nav-bar .nav-mobile #nav-toggle.active span:after {
+          #header nav .nav-mobile #nav-toggle.active span:after {
             -webkit-transform: rotate(-45deg);
                 -ms-transform: rotate(-45deg);
                     transform: rotate(-45deg); }
+    #header nav.active-bg {
+      background-color: #333;
+      -webkit-transition: background-color 300ms ease-in-out;
+      -o-transition: background-color 300ms ease-in-out;
+      transition: background-color 300ms ease-in-out; }
+  @media (min-width: 768px) {
+    #header nav .nav-mobile {
+      display: none; }
+    #header nav .logo {
+      float: left;
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+      padding: 1%; }
+    #header nav .nav-bar {
+      padding: 1%;
+      float: right;
+      width: 70%; }
+      #header nav .nav-bar .nav-content {
+        display: block;
+        text-align: center; }
+        #header nav .nav-bar .nav-content li {
+          display: inline-block; } }
 
-@media (max-width: 767px) {
-  nav {
-    top: 0;
-    background: #333; }
-    nav .nav-bar {
-      width: 100%; }
-      nav .nav-bar .nav-logo {
-        padding: 10px; }
-      nav .nav-bar .nav-menu {
-        width: 100%; }
-        nav .nav-bar .nav-menu .nav-menu-content {
-          display: none; }
-          nav .nav-bar .nav-menu .nav-menu-content li {
-            float: none; }
-            nav .nav-bar .nav-menu .nav-menu-content li a {
-              padding: 10px; }
-      nav .nav-bar .nav-mobile {
-        display: block; } }
+/* 
+.nav-mobile {
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 17px;
+			background: $navbar-background-color;
+			height: 50px;
+			width: 50px;
 
+			#nav-toggle {
+				@include hamburger;
+			}
+		}
+ */
+/* @mixin center-vertical {
+	position: relative;
+	top: 50%;
+	transition: translateY(-50%);
+}
+
+@mixin hamburger {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	padding: 10px 35px 16px 0px;
+	span,
+	span:before,
+	span:after {
+		cursor: pointer;
+		border-radius: 1px;
+		height: 5px;
+		width: 35px;
+		background: $background-color;
+		position: absolute;
+		display: block;
+		content: '';
+		transition: all 300ms ease-in-out;
+	}
+	span:before {
+		top: -10px;
+	}
+	span:after {
+		bottom: -10px;
+	}
+	&.active span {
+		background-color: transparent;
+		&:before,
+		&:after {
+			top: 0;
+		}
+		&:before {
+			transform: rotate(45deg);
+		}
+		&:after {
+			transform: rotate(-45deg);
+		}
+	}
+}
+
+nav {
+	z-index: 999;
+	width: 100vw;
+	background: transparent;
+	position: absolute;
+	top: 30px;
+	.nav-bar {
+		width: 80%;
+		max-width: 1000px;
+		margin: 0 auto;
+		.nav-logo {
+			float: left;
+			width: 20%;
+			@include center-vertical;
+		}
+		.nav-menu {
+			@include center-vertical;
+			float: right;
+			width: 80%;
+			.nav-menu-content {
+				li {
+					float: right;
+					a {
+						display: block;
+						font-size: 14px;
+						font-weight: $medium-font-weight;
+						text-transform: uppercase;
+						padding: 0 10px;
+						line-height: 3;
+						color: $text-color-light;
+						&:hover {
+							text-decoration: none;
+							background: $hover-bg-color;
+						}
+						@media (min-width: pc-medium) {
+							padding: 0 20px;
+						}
+					}
+				}
+				@media (min-width: $tablet) {
+					display: block !important;
+				}
+			}
+		}
+
+		.nav-mobile {
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 17px;
+			background: $navbar-background-color;
+			height: 50px;
+			width: 50px;
+
+			#nav-toggle {
+				@include hamburger;
+			}
+		}
+	}
+}
+
+//media queries
+@media (max-width: $phone) {
+	nav {
+		top: 0;
+		background: $navbar-background-color;
+
+		.nav-bar {
+			width: 100%;
+			.nav-logo {
+				padding: 10px;
+			}
+			.nav-menu {
+				width: 100%;
+				.nav-menu-content {
+					display: none;
+					li {
+						float: none;
+						a {
+							padding: 10px;
+						}
+					}
+				}
+			}
+			.nav-mobile {
+				display: block;
+			}
+		}
+	}
+} */
 /* $pc-large: (min-width: 1200px);
 $pc-medium: (min-width: 992px);
 $tablet: (min-width: 768px);

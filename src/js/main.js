@@ -6,7 +6,9 @@
 			e.preventDefault();
 			this.classList.toggle('active');
 
-			$('.nav-menu-content').slideToggle();
+			$('.nav-content').slideToggle();
+
+			$('nav').toggleClass('active-bg');
 		});
 
 		$button.on('click', function(e) {
