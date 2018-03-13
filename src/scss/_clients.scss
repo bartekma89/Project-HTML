@@ -1,0 +1,13 @@
+@import '_common.scss';
+
+#clients {
+	.logos {
+		margin: 30px auto;
+		.logo {
+			text-align: center;
+			padding-left: 0;
+			padding-right: 0;
+			margin: 20px auto;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+@import '_common.scss';
+
+#services {
+	.title {
+		@include title-section;
+	}
+
+	.service {
+		text-align: center;
+		margin-bottom: 120px;
+		h3 {
+			color: $text-color-dark;
+			font-family: $basic-font;
+			font-size: 18px;
+			font-weight: $bold-font-weight;
+			line-height: 75px;
+		}
+		p {
+			color: $basic-color;
+			font-family: $description-font;
+			font-size: 14px;
+			font-weight: $medium-font-weight;
+			line-height: 1.6;
+		}
+	}
+}
