@@ -826,6 +826,10 @@ body {
           font-size: 14px; } }
       @media (max-width: 992px) {
         #about-us .timeline .container-timeline:last-of-type::after {
+          padding: 25px 20px;
+          font-size: 14px; } }
+      @media (max-width: 767px) {
+        #about-us .timeline .container-timeline:last-of-type::after {
           padding: 15px 7px;
           font-size: 10px; } }
   #about-us .timeline .container-left {

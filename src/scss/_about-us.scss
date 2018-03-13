@@ -60,6 +60,10 @@ $lastElement-bg-color: #fed136;
 		font-size: 14px;
 	}
 	@media (max-width: $pc-medium) {
+		padding: 25px 20px;
+		font-size: 14px;
+	}
+	@media (max-width: $phone) {
 		padding: 15px 7px;
 		font-size: 10px;
 	}
