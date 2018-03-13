@@ -60,7 +60,8 @@ $lastElement-bg-color: #fed136;
 		font-size: 14px;
 	}
 	@media (max-width: $pc-medium) {
-		padding: 25px 7px;
+		padding: 15px 7px;
+		font-size: 10px;
 	}
 }
 
@@ -204,10 +205,10 @@ $lastElement-bg-color: #fed136;
 			font-weight: $medium-font-weight;
 			line-height: 1.3;
 			@media (min-width: $pc-medium) and (max-width: 1199px) {
-				font-size: 12px;
+				font-size: 13px;
 			}
 			@media (max-width: $phone) {
-				font-size: 10px;
+				font-size: 11px;
 			}
 		}
 	}
