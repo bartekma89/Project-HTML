@@ -8,7 +8,8 @@
 
 			$('.nav-content').slideToggle();
 
-			$('nav').toggleClass('active-bg');
+			$('nav').toggleClass('active-bg', true);
+			$('nav').toggleClass('unactive-bg', false);
 		});
 
 		$button.on('click', function(e) {
