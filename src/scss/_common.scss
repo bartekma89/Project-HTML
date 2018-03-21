@@ -24,33 +24,34 @@ $paragraph-font: 'Droid Serif';
 $medium-font-weight: 400;
 $bold-font-weight: 700;
 $basic-font-size: 16px;
+$paragraph-font-size: 14px;
 $header-font-sieze: 40px;
 
 //RWD
-
-/* $pc-large: (min-width: 1200px);
-$pc-medium: (min-width: 992px);
-$tablet: (min-width: 768px);
-$phone: (max-width: 767px); */
-
 $pc-large: 1199px;
 $pc-medium: 992px;
 $tablet: 768px;
 $phone: 767px;
 
-//mixins
-@mixin btn-social-media {
+%btn-social-media-template {
 	padding: 20px;
 	.icon-btn {
 		font-size: 20px;
 		border-radius: 50%;
 		width: 40px;
 		height: 40px;
-		border: 3px solid #000;
-		background-color: transparent;
-		color: #000;
 		cursor: pointer;
 		margin: 0 10px;
+	}
+}
+
+//mixins
+@mixin btn-social-media {
+	@extend %btn-social-media-template;
+	.icon-btn {
+		background-color: transparent;
+		border: 3px solid #000;
+		color: #000;
 		&:hover {
 			background-color: #000;
 			color: #fff;
@@ -59,17 +60,11 @@ $phone: 767px;
 }
 
 @mixin btn-social-media-reverse {
-	padding: 20px;
+	@extend %btn-social-media-template;
 	.icon-btn {
-		font-size: 20px;
-		border-radius: 50%;
-		width: 40px;
-		height: 40px;
 		background-color: #000;
 		border: none;
 		color: #fff;
-		cursor: pointer;
-		margin: 0 10px;
 		&:hover {
 			background-color: #fff;
 			color: #000;
@@ -126,6 +121,20 @@ body {
 
 .container-fluid {
 	padding: 0;
+}
+
+h3 {
+	color: $text-color-dark;
+	font-family: $basic-font;
+	font-size: $basic-font-size; //16px
+	font-weight: $bold-font-weight;
+}
+
+p {
+	color: $basic-color;
+	font-family: $description-font;
+	font-size: $paragraph-font-size; //14px
+	font-weight: $medium-font-weight;
 }
 
 //backToTheTop

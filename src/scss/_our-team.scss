@@ -12,20 +12,12 @@
 		padding-right: 0;
 		text-align: center;
 		h3 {
+			line-height: 40px;
 			margin: 0;
 			padding: 0;
-			color: $text-color-dark;
-			font-family: $basic-font;
-			font-size: $basic-font-size;
-			font-weight: $bold-font-weight;
-			line-height: 40px;
 		}
 
 		p {
-			color: $basic-color;
-			font-family: $description-font;
-			font-size: 14px;
-			font-weight: $medium-font-weight;
 			line-height: 10px;
 		}
 
