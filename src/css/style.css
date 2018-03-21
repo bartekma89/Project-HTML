@@ -175,6 +175,11 @@ p {
   font-size: 14px;
   font-weight: 400; }
 
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
 #button {
   display: inline-block;
   background-color: #fed136;
@@ -243,6 +248,11 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 #button {
   display: inline-block;
@@ -468,6 +478,11 @@ p {
   font-size: 14px;
   font-weight: 400; }
 
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
 #button {
   display: inline-block;
   background-color: #fed136;
@@ -561,6 +576,11 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 #button {
   display: inline-block;
@@ -684,6 +704,11 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 #button {
   display: inline-block;
@@ -947,6 +972,11 @@ p {
   font-size: 14px;
   font-weight: 400; }
 
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
 #button {
   display: inline-block;
   background-color: #fed136;
@@ -1020,7 +1050,6 @@ p {
     #team .description h3 {
       color: #777;
       font-family: "Roboto Slab", serif;
-      font-size: 16px;
       font-weight: 400;
       text-align: center; }
 
@@ -1059,6 +1088,11 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 #button {
   display: inline-block;
@@ -1136,6 +1170,11 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 #button {
   display: inline-block;
@@ -1265,6 +1304,11 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
 
 #button {
   display: inline-block;

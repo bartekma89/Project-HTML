@@ -137,6 +137,14 @@ p {
 	font-weight: $medium-font-weight;
 }
 
+a {
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
 //backToTheTop
 #button {
 	display: inline-block;
