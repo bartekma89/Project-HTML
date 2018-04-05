@@ -98,10 +98,6 @@
 			background-color: #333;
 			transition: background-color 300ms ease-in-out;
 		}
-		&.unactive-bg {
-			background-color: '';
-			transition: background-color 300ms ease-in-out;
-		}
 	}
 	@media (min-width: $tablet) {
 		nav {
