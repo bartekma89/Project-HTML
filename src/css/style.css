@@ -202,7 +202,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
   color: #fff; }
   #header .opacity {
     background-color: rgba(0, 0, 0, 0.5);
